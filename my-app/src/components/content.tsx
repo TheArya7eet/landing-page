@@ -34,7 +34,7 @@ const Content = () => {
 
         <div className='flex justify-center '>
           <div className=" grid gap-8 sm:grid-cols-2">
-            
+
             <div className=" max-w-sm">
               <div className="border border-gray-200 p-6 rounded-lg shadow-md">
                 <div className="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4">
@@ -53,7 +53,7 @@ const Content = () => {
                   <svg className="w-8 h-8" xmlns="http://www.w3.org/2000/svg" data-name="Layer 1" viewBox="0 0 24 24" id="brackets-curly"><path fill="#6563FF" d="M6 6a2 2 0 0 1 2-2 1 1 0 0 0 0-2 4 4 0 0 0-4 4v3a2 2 0 0 1-2 2 1 1 0 0 0 0 2 2 2 0 0 1 2 2v3a4 4 0 0 0 4 4 1 1 0 0 0 0-2 2 2 0 0 1-2-2v-3a4 4 0 0 0-1.38-3A4 4 0 0 0 6 9Zm16 5a2 2 0 0 1-2-2V6a4 4 0 0 0-4-4 1 1 0 0 0 0 2 2 2 0 0 1 2 2v3a4 4 0 0 0 1.38 3A4 4 0 0 0 18 15v3a2 2 0 0 1-2 2 1 1 0 0 0 0 2 4 4 0 0 0 4-4v-3a2 2 0 0 1 2-2 1 1 0 0 0 0-2Z"></path></svg>
                 </div>
                 <h2 className="text-lg text-gray-900 font-medium title-font mb-2">Developer</h2>
-                <p className="leading-relaxed text-base">Currently, I'm a front-end developer building websites using React, Next.js, etc.</p>
+                <p className="leading-relaxed text-base">Currently, I am a front-end developer building websites using React, Next.js, etc.</p>
               </div>
             </div>
 
