@@ -34,6 +34,7 @@ const Content = () => {
 
         <div className='flex justify-center '>
           <div className=" grid gap-8 sm:grid-cols-2">
+            
             <div className=" max-w-sm">
               <div className="border border-gray-200 p-6 rounded-lg shadow-md">
                 <div className="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4">
@@ -45,6 +46,7 @@ const Content = () => {
                 <p className="leading-relaxed text-base">I hold a firm grip in languages such as Java, C++, JavaScript and SQL.</p>
               </div>
             </div>
+
             <div className="max-w-sm">
               <div className="border border-gray-200 p-6 rounded-lg shadow-md">
                 <div className="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4">
@@ -54,6 +56,7 @@ const Content = () => {
                 <p className="leading-relaxed text-base">Currently, I'm a front-end developer building websites using React, Next.js, etc.</p>
               </div>
             </div>
+
             <div className="max-w-sm">
               <div className="border border-gray-200 p-6 rounded-lg shadow-md">
                 <div className="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4">
@@ -63,6 +66,7 @@ const Content = () => {
                 <p className="leading-relaxed text-base">I have a firm grip in Tailwind CSS, Figma and Adobe Photoshop.</p>
               </div>
             </div>
+
             <div className="max-w-sm">
               <div className="border border-gray-200 p-6 rounded-lg shadow-md">
                 <div className="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4">
@@ -72,10 +76,9 @@ const Content = () => {
                 <p className="leading-relaxed text-base">I write blogs on anything related to football, music and cinema.</p>
               </div>
             </div>
+            
           </div>
         </div>
-
-        <button className="flex mx-auto mt-16 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">Button</button>
       </div>
     </section >
   )
