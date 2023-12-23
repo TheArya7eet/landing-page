@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
-import profilePic from '../public/pfp.jpg';
+import profile from 'profile.jpg';
 
 const HeroSection = () => {
     return (
@@ -8,12 +8,13 @@ const HeroSection = () => {
             <div className="container mx-auto flex px-5 py-24 items-center justify-center flex-col lg:flex-row">
                 <div className="group relative rounded-3xl shadow-xl  space-y-6 overflow-hidden">
                     <div className="group relative rounded-3xl shadow-xl  space-y-6 overflow-hidden">
-                        <img
-                            className="mx-auto h-[26rem] w-full grayscale object-cover object-top transition duration-500 group-hover:scale-105 group-hover:grayscale-0 text-center"
-                            src=""
+                        <Image
+                            src="/profile.jpg"
+                            alt='pfp'
                             loading="lazy"
                             width="640"
                             height="805"
+                            className="mx-auto h-[26rem] w-full object-cover object-top transition duration-500 group-hover:scale-110 group-hover:grayscale text-center"
                         />
                         <div className="absolute bottom-0 inset-x-0 h-max mt-auto px-8 py-6 bg-indigo-500 dark:bg-white translate-y-24 transition duration-300 ease-in-out group-hover:translate-y-0">
                             <div>
