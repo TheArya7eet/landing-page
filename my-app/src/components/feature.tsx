@@ -20,7 +20,7 @@ const Feature = () => {
             <div className="flex-grow">
               <h2 className="text-gray-900 text-lg title-font font-medium mb-3">Todo List</h2>
               <p className="leading-relaxed text-base">A basic todo website using HTML, Tailwind CSS and JavaScript. I have also added advanced features such as LocalStorage.</p>
-              <a href='' className="mt-3 text-indigo-500 inline-flex items-center">Visit site
+              <a href='https://thearya7eet.github.io/to-do-list/' className="mt-3 text-indigo-500 inline-flex items-center">Visit site
                 <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
                   <path d="M5 12h14M12 5l7 7-7 7"></path>
                 </svg>
